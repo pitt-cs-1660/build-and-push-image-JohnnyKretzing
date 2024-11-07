@@ -38,7 +38,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-east4-docker.pkg.dev/pitt-cs-1660/build-and-push-image-johnnykretzing/app:v1
+          tags: us-east4-docker.pkg.dev/lab-3-440621/jjk-lab3-repo/kevin:v1
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx
